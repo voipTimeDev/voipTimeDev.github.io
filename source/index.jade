@@ -1,0 +1,173 @@
+extends ./layout.jade
+
+
+//*****************
+// Main
+//*****************
+block main
+  section.main.cf
+    .adaptive-container
+      h1.main__title
+        span.main__title-row Predictive Dialer
+          .main__title-row_small and
+        span.main__title-row Lead Management System
+
+      span.main__subtitle Increase the performance of your operators right now
+
+      a.start-trial(href="#") start your trial
+
+      img.main__display(src="./img/mockup-mac.png")
+
+
+//*****************
+// Only 15 min
+//*****************
+block only-15-min
+  section.only-15-min.cf
+    .adaptive-container
+      h2.section-title.section-title__dark Only 15 Minutes to Run Massive Calls
+
+      .only-15-min__col
+        img(src="./img/speed.svg")
+        h3.only-15-min__col-title Speed
+        p.only-15-min__col-paragraph System for working with tracks that allows the sales department to keep lead records
+          | and efficiently work with both cold and warm contacts
+
+      .only-15-min__col
+        img(src="./img/work.svg")
+        h3.only-15-min__col-title Work
+        p.only-15-min__col-paragraph Your employees can gather the necessary information or sales, using the script call,
+          | to call client card and so on
+
+      .only-15-min__col
+        img(src="./img/result.svg")
+        h3.only-15-min__col-title Result
+        p.only-15-min__col-paragraph After you complete call you get detailed statistics of all attempts to dial with
+          | the current lead status you can unload for further analysis
+
+
+//*****************
+// Increase the speed
+//*****************
+block increase-the-speed
+  section.increase-the-speed.cf
+    .adaptive-container
+      h2.section-title Increase the Speed for Your Call Center
+      .increase-the-speed__ilustration
+        img.increase-the-speed__battery(src="./img/battery.svg")
+
+      p.increase-the-speed__paragraph With Predictive Dialer the speed of your call center will increase from 30% to 70%
+
+
+//*****************
+// Predictive dialer
+//*****************
+block predictive-dialer
+  section.predictive-dialer.cf
+    .adaptive-container
+      h2.section-title.section-title__dark Our Benefits
+
+      div.predictive-dialer__row.cf
+        .predictive-dialer__benefit-container
+          img.predictive-dialer__bonefit-image(src="./img/analytics.svg")
+          h3.predictive-dialer__bonefit-header Analytics
+          span.predictive-dialer__bonefit-description Control the quality of customer service
+          p.predictive-dialer__bonefit-paragraph You can monitor the work of the sales team online, monitor current
+            | processes or to view historical statistics reports of several types. The ability to connect to the active
+            | dialogues or listen to the call recording allows you to control the quality of customer service and make
+            | the necessary correction
+
+        .predictive-dialer__benefit-container
+          img.predictive-dialer__bonefit-image(src="./img/api.svg")
+          h3.predictive-dialer__bonefit-header API
+          span.predictive-dialer__bonefit-description Send commands and receive the necessary data
+          p.predictive-dialer__bonefit-paragraph With bilateral API-integration with external systems you can increase
+            | actions such as: call the client to obtain statistics on the status of the operator in real time, creating
+            | and canceling your call, change customer data for ID and more
+
+      div.predictive-dialer__row.cf
+        .predictive-dialer__benefit-container
+          img.predictive-dialer__bonefit-image(src="./img/productivity.svg")
+          h3.predictive-dialer__bonefit-header Productivity
+          span.predictive-dialer__bonefit-description Improve the performance of your operators
+          p.predictive-dialer__bonefit-paragraph Using the Predictive allows three times more effective calls at the same
+            | time compared with manual call. The system automatically analyzes the timing and gaining several
+            | numbers simultaneously, so each operator connected to the "live" person
+
+        .predictive-dialer__benefit-container
+          img.predictive-dialer__bonefit-image(src="./img/privacy.svg")
+          h3.predictive-dialer__bonefit-header Privacy
+          span.predictive-dialer__bonefit-description High security level of your calls
+          p.predictive-dialer__bonefit-paragraph The project allows the operator to assign work only with certain
+            | lead categories or databases with personal customers. The operator can only work with one project
+            | and no access to settings that allows you to store maximum privacy
+
+      div.predictive-dialer__row.cf
+        .predictive-dialer__benefit-container
+          img.predictive-dialer__bonefit-image(src="./img/effectiveness.svg")
+          h3.predictive-dialer__bonefit-header Effectiveness
+          span.predictive-dialer__bonefit-description Nullam a posuere tortor
+          p.predictive-dialer__bonefit-paragraph The system automatically dials the subscriber preset intervals
+            | and operator connects the call as soon as he answers the call
+
+        .predictive-dialer__benefit-container
+          img.predictive-dialer__bonefit-image(src="./img/script.svg")
+          h3.predictive-dialer__bonefit-header Script creator
+          span.predictive-dialer__bonefit-description Create scripts that you really need
+          p.predictive-dialer__bonefit-paragraph Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            | nisi aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            | cillum dolore eu fugiat nulla pariatur
+
+
+//*****************
+// Reviews
+//*****************
+block reviews
+  section.reviews.cf
+    .adaptive-container
+      h2.section-title.section-title__dark What Customers Say About Us
+
+      .reviews__row
+        .reviews__container.cf
+          img.reviews__image(src="http://lorempixel.com/80/80/people/8")
+          .reviews__text-container
+            p.reviews__review Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+              | labore et dolore magna aliqua
+            span.reviews__initials Thomas Jackson. Netflix
+        .reviews__container.cf
+          img.reviews__image(src="http://lorempixel.com/80/80/people/9")
+          .reviews__text-container
+            p.reviews__review Etiam iaculis convallis tellus consectetur sagittis. Phasellus eleifend
+              | bibendum iaculis. Cras eu mi sapien. Integer leo justo, convallis eget arcu vel, lobortis rhoncus eros. Morbi eu viverra dui. Nullam a posuere tortor
+            span.reviews__initials Thomas Jackson. Netflix
+
+      .reviews__row
+        .reviews__container.cf
+          img.reviews__image(src="http://lorempixel.com/80/80/people/6")
+          .reviews__text-container
+            p.reviews__review Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+              | adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatema
+            span.reviews__initials Thomas Jackson. Netflix
+        .reviews__container.cf
+          img.reviews__image(src="http://lorempixel.com/80/80/people/7")
+          .reviews__text-container
+            p.reviews__review Maecenas ut vestibulum ante. Ut ullamcorper, neque quis convallis placerat, ante
+              | orci congue libero
+            span.reviews__initials Thomas Jackson. Netflix
+
+
+//*****************
+// Footer
+//*****************
+block footer
+  footer.footer.cf
+    .adaptive-container
+      .footer__left-side
+        img(src="./img/rocket.svg")
+      .footer__right-side
+        h2.section-title Get Started Today
+        a.start-trial(href="#") start your trial
+        p.footer-paragraph Predictive Dialer allows maximize quality of calls with minimal operators downtime. Since the
+          | application is automatically dialed, and operators are connected only ‘live’ subscribers, the working
+          | time is used as efficiently as possible
+        span.copyright © 2016. VoIPTime Predictive Dialer & Lead Management System. All Rights reserved.

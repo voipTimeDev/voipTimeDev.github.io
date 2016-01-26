@@ -1,0 +1,43 @@
+.reviews
+  background-color $blue-the-lightest
+
+.reviews__image
+  border-radius 50%
+  position absolute
+  width 80px
+  display inline-block
+  float left
+  left 5px
+  top 50%
+  transform translate(0, -50%)
+
+.reviews__row
+  width 50%
+  float left
+
+.reviews__container
+  position relative
+  margin-bottom 10px
+
+.reviews__text-container
+  background-color $white
+  width calc(100% - 100px)
+  display inline-block
+  float right
+  position relative
+  &::before
+    content ""
+    position absolute
+    left -12px
+    top 50%
+    transform translate(0, -50%)
+    width: 0
+    height 0
+    border-style solid
+    border-width 11.5px 12px 11.5px 0
+    border-color transparent $white transparent transparent
+
+
+.reviews__review
+.reviews__initials
+  color $black

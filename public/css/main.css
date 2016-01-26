@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+}
+section,
+footer {
+  min-height: 200px;
+}
+h1,
+h2,
+h3,
+h4,
+span,
+a,
+p {
+  font-family: 'GothamPro', sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf * {
+  zoom: 1;
+}
+.cf:after {
+  clear: both;
+}
+.start-trial {
+  background-color: #ff1958;
+  text-decoration: none;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 500;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.section-title {
+  text-align: center;
+}
+.section-title__dark {
+  color: #000;
+}
+.adaptive-container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+@font-face {
+  font-family: 'GothamPro';
+  src: url("GothamPro.eot?") format('eot'), url("../fonts/GothamPro.otf") format('opentype'), url("../fonts/GothamPro.woff") format('woff'), url("../fonts/GothamPro.ttf") format('truetype'), url("../fonts/GothamPro.svg#GothamPro") format('svg');
+}
+.main {
+  background-color: #8ecefb;
+}
+.main__title {
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+.main__title-row {
+  display: block;
+}
+.main__title-row_small {
+  display: inline;
+}
+.main__subtitle {
+  text-align: center;
+  display: block;
+}
+.main__display {
+  margin: 0 auto;
+  display: block;
+}
+.only-15-min {
+  background-color: #f8f8f8;
+}
+.only-15-min__col {
+  display: inline-block;
+  width: 33.33%;
+  margin: 0;
+  float: left;
+  text-align: center;
+}
+.only-15-min__col-title {
+  color: #000;
+}
+.only-15-min__col-paragraph {
+  color: #000;
+}
+.increase-the-speed {
+  background-color: #238ee6;
+}
+.increase-the-speed__paragraph {
+  text-align: center;
+}
+.increase-the-speed__battery {
+  margin: 0 auto;
+  max-width: 737px;
+  display: block;
+}
+.predictive-dialer {
+  background-color: #f8f8f8;
+}
+.predictive-dialer__benefit-container {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.predictive-dialer__bonefit-image {
+  color: #000;
+}
+.predictive-dialer__bonefit-header {
+  color: #000;
+}
+.predictive-dialer__bonefit-description {
+  color: #000;
+}
+.predictive-dialer__bonefit-paragraph {
+  color: #000;
+}
+.reviews {
+  background-color: #b7e0fb;
+}
+.reviews__image {
+  border-radius: 50%;
+  position: absolute;
+  width: 80px;
+  display: inline-block;
+  float: left;
+  left: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.reviews__row {
+  width: 50%;
+  float: left;
+}
+.reviews__container {
+  position: relative;
+  margin-bottom: 10px;
+}
+.reviews__text-container {
+  background-color: #fff;
+  width: calc(100% - 100px);
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+.reviews__text-container::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11.5px 12px 11.5px 0;
+  border-color: transparent #fff transparent transparent;
+}
+.reviews__review,
+.reviews__initials {
+  color: #000;
+}
+.footer {
+  background-color: #0d385c;
+}
+.footer__left-side {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+.footer__right-side {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0;
+  font-size: 18px;
+  float: left;
+}
