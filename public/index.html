@@ -2,9 +2,17 @@
 <html lang="en">
   <head>
     <title>pageTitle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/hk-grotesk" type="text/css">
   </head>
   <body>
+    <section class="navbar cf">
+      <div class="adaptive-container">
+        <div class="logo"></div><a href="#" class="start-trial start-trial_white">Start Your Trial</a>
+      </div>
+    </section>
     <section class="main cf">
       <div class="adaptive-container">
         <h1 class="main__title"><span class="main__title-row">Predictive Dialer
@@ -14,21 +22,21 @@
     <section class="only-15-min cf">
       <div class="adaptive-container">
         <h2 class="section-title section-title__dark">Only 15 Minutes to Run Massive Calls</h2>
-        <div class="only-15-min__col"><img src="./img/speed.svg">
+        <div class="only-15-min__col"><img src="./img/speed.svg" class="only-15-min__img">
           <h3 class="only-15-min__col-title">Speed</h3>
           <p class="only-15-min__col-paragraph">
             System for working with tracks that allows the sales department to keep lead records
             and efficiently work with both cold and warm contacts
           </p>
         </div>
-        <div class="only-15-min__col"><img src="./img/work.svg">
+        <div class="only-15-min__col"><img src="./img/work.svg" class="only-15-min__img">
           <h3 class="only-15-min__col-title">Work</h3>
           <p class="only-15-min__col-paragraph">
             Your employees can gather the necessary information or sales, using the script call,
             to call client card and so on
           </p>
         </div>
-        <div class="only-15-min__col"><img src="./img/result.svg">
+        <div class="only-15-min__col"><img src="./img/result.svg" class="only-15-min__img">
           <h3 class="only-15-min__col-title">Result</h3>
           <p class="only-15-min__col-paragraph">
             After you complete call you get detailed statistics of all attempts to dial with
@@ -39,14 +47,14 @@
     </section>
     <section class="increase-the-speed cf">
       <div class="adaptive-container">
-        <h2 class="section-title">Increase the Speed for Your Call Center</h2>
+        <h2 class="section-title increase-the-speed__title">Increase the Speed for Your Call Center</h2>
         <div class="increase-the-speed__ilustration"><img src="./img/battery.svg" class="increase-the-speed__battery"></div>
         <p class="increase-the-speed__paragraph">With Predictive Dialer the speed of your call center will increase from 30% to 70%</p>
       </div>
     </section>
     <section class="predictive-dialer cf">
       <div class="adaptive-container">
-        <h2 class="section-title section-title__dark">Our Benefits</h2>
+        <h2 class="section-title section-title_small-margin section-title__dark">Our Benefits</h2>
         <div class="predictive-dialer__row cf">
           <div class="predictive-dialer__benefit-container"><img src="./img/analytics.svg" class="predictive-dialer__bonefit-image">
             <h3 class="predictive-dialer__bonefit-header">Analytics</h3><span class="predictive-dialer__bonefit-description">Control the quality of customer service</span>
@@ -105,7 +113,7 @@
     </section>
     <section class="reviews cf">
       <div class="adaptive-container">
-        <h2 class="section-title section-title__dark">What Customers Say About Us</h2>
+        <h2 class="section-title section-title_small-margin section-title__dark">What Customers Say About Us</h2>
         <div class="reviews__row">
           <div class="reviews__container cf"><img src="http://lorempixel.com/80/80/people/8" class="reviews__image">
             <div class="reviews__text-container">
@@ -129,7 +137,7 @@
             <div class="reviews__text-container">
               <p class="reviews__review">
                 Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatema
+                adipisci velit, sed quia non numquam eius modi slkdjfslkjdf sldkfsd sldkfsd sldkfj tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatema
               </p><span class="reviews__initials">Thomas Jackson. Netflix</span>
             </div>
           </div>
@@ -145,16 +153,21 @@
       </div>
     </section>
     <footer class="footer cf">
-      <div class="adaptive-container">
-        <div class="footer__left-side"><img src="./img/rocket.svg"></div>
+      <div class="adaptive-container cf">
+        <div class="footer__left-side"><img src="./img/rocket.svg" class="rocket"></div>
         <div class="footer__right-side">
-          <h2 class="section-title">Get Started Today</h2><a href="#" class="start-trial">start your trial</a>
-          <p class="footer-paragraph">
+          <h2 class="section-title footer__title">Get Started Today</h2><a href="#" class="start-trial start-trial_footer">start your trial</a>
+          <p class="footer__paragraph">
             Predictive Dialer allows maximize quality of calls with minimal operators downtime. Since the
             application is automatically dialed, and operators are connected only ‘live’ subscribers, the working
             time is used as efficiently as possible
-          </p><span class="copyright">© 2016. VoIPTime Predictive Dialer & Lead Management System. All Rights reserved.</span>
-        </div>
+          </p>
+          <div class="contacts">
+            <div class="contacts__contact contacts__tel">1-800-217-9944</div>
+            <div class="contacts__contact contacts__mail">info@voiptime.com</div>
+            <div class="contacts__contact contacts__skype"><i class="fa fa-skype"></i>&#32; voiptime</div>
+          </div>
+        </div><span class="copyright">© 2016. VoIPTime Predictive Dialer & Lead Management System. All Rights reserved.</span>
       </div>
     </footer>
     <script src="js/main.js"></script>

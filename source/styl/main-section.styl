@@ -1,21 +1,49 @@
 .main
+  padding-top 71px
   background-color $blue-light
+  background-image url("../img/equalizer.svg")
+  background-position bottom
+  background-repeat no-repeat
+  @media(min-width 768px)
+    padding-top 212px
 
 .main__title
   color $white
   font-weight 400
   text-align center
+  margin 0 0 23px
+  @media(min-width 768px)
+    margin 0 0 32px
 
 .main__title-row
   display block
 
 .main__title-row_small
-  display inline
+  display block
+  font-size 20px
+  @media(min-width: 768px)
+    font-size 30px
+    display inline-block
+  @media(min-width: 1024px)
+    font-size 40px
+  @media(min-widtg: 1170px)
+    font-size 40px
 
 .main__subtitle
   text-align center
   display block
+  font-size 18px
+  margin 0 37px 51px
+  @media(min-width 768px)
+    font-size 24px
+  @media(min-width 1024px)
+    font-size 28px
 
 .main__display
   margin 0 auto
   display block
+  width 75%
+  @media(min-width 768px)
+    width 80%
+  @media(min-width 1024px)
+    width 65%

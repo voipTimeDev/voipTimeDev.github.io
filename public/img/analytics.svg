@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Avocode 2.4.5 - http://avocode.com -->
-<svg height="87" width="100" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 87">
-    <image xlink:href="data:image/png;base64,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" height="87" width="100" y="0" x="0" />
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 133.3 2000 1733.3" enable-background="new 0 133.3 2000 1733.3" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<polyline fill="#258EE6" points="166.7,366.7 33.3,366.7 33.3,233.3 833.3,233.3 900,166.7 1100,166.7 1166.7,233.3 
+				1966.7,233.3 1966.7,366.7 1833.3,366.7 			"/>
+		</g>
+		<g>
+			<rect x="966.7" y="1366.7" fill="#062938" width="66.7" height="500"/>
+		</g>
+		<g>
+			
+				<rect x="1155.8" y="1568.1" transform="matrix(-0.4472 -0.8944 0.8944 -0.4472 618.9637 3585.4021)" fill="#062938" width="523.3" height="66.7"/>
+		</g>
+		<g>
+			
+				<rect x="549.3" y="1339.8" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 387.4895 3294.3618)" fill="#062938" width="66.7" height="523.3"/>
+		</g>
+		<g>
+			<rect x="166.7" y="366.7" fill="#FFFFFF" width="1666.7" height="1000"/>
+		</g>
+		<g>
+			<path fill="#062938" d="M1866.7,1400H133.3V333.3h1733.3V1400z M200,1333.3h1600V400H200V1333.3z"/>
+		</g>
+		<g>
+			<polygon fill="#062938" points="2000,400 1833.3,400 1833.3,333.3 1933.3,333.3 1933.3,266.7 1153.3,266.7 1086.7,200 913.3,200 
+				846.7,266.7 66.7,266.7 66.7,333.3 166.7,333.3 166.7,400 0,400 0,200 820,200 886.7,133.3 1113.3,133.3 1180,200 2000,200 			
+				"/>
+		</g>
+		<g>
+			<path fill="#70C1F9" d="M666.7,700c-130,0-233.3,103.3-233.3,233.3s103.3,233.3,233.3,233.3S900,1063.3,900,933.3H666.7V700z"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" d="M800,566.7V800h233.3C1033.3,670,930,566.7,800,566.7z"/>
+		</g>
+		<g>
+			<path fill="#062938" d="M666.7,1200C520,1200,400,1080,400,933.3s120-266.7,266.7-266.7H700V900h233.3v33.3
+				C933.3,1080,813.3,1200,666.7,1200z M633.3,736.7c-93.3,16.7-166.7,96.7-166.7,196.7c0,110,90,200,200,200
+				c100,0,180-73.3,196.7-166.7h-230V736.7z"/>
+		</g>
+		<g>
+			<path fill="#062938" d="M1066.7,833.3h-300v-300H800c146.7,0,266.7,120,266.7,266.7V833.3z M833.3,766.7h163.3
+				c-13.3-83.3-80-150-163.3-163.3V766.7z"/>
+		</g>
+		<g>
+			<rect x="1200" y="533.3" fill="#062938" width="466.7" height="66.7"/>
+		</g>
+		<g>
+			<rect x="1200" y="733.3" fill="#062938" width="466.7" height="66.7"/>
+		</g>
+		<g>
+			<rect x="1200" y="933.3" fill="#062938" width="466.7" height="66.7"/>
+		</g>
+		<g>
+			<rect x="1200" y="1133.3" fill="#062938" width="466.7" height="66.7"/>
+		</g>
+	</g>
+</g>
 </svg>

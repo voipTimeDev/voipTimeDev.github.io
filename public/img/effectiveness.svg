@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Avocode 2.4.5 - http://avocode.com -->
-<svg height="100" width="75" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 100">
-    <image xlink:href="data:image/png;base64,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" height="100" width="75" y="0" x="0" />
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 64" enable-background="new 0 0 48 64" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<rect x="1" y="5" fill="#268EE6" width="46" height="58"/>
+		</g>
+		<g>
+			<polyline fill="#FFFFFF" points="38,9 41,9 41,57 7,57 7,9 10,9 			"/>
+		</g>
+		<g>
+			<path fill="#062938" d="M47,64H1c-0.6,0-1-0.4-1-1V5c0-0.6,0.4-1,1-1h46c0.6,0,1,0.4,1,1v58C48,63.6,47.6,64,47,64z M2,62h44V6H2
+				V62z"/>
+		</g>
+		<g>
+			<rect x="13" y="1" fill="#FFFFFF" width="22" height="10"/>
+		</g>
+		<g>
+			<path fill="#062938" d="M35,12H13c-0.6,0-1-0.4-1-1V1c0-0.6,0.4-1,1-1h22c0.6,0,1,0.4,1,1v10C36,11.6,35.6,12,35,12z M14,10h20V2
+				H14V10z"/>
+		</g>
+		<g>
+			<path fill="#062938" d="M41,58H7c-0.6,0-1-0.4-1-1V9c0-0.6,0.4-1,1-1h3v2H8v46h32V10h-2V8h3c0.6,0,1,0.4,1,1v48
+				C42,57.6,41.6,58,41,58z"/>
+		</g>
+		<g>
+			<rect x="16" y="4" fill="#062938" width="16" height="2"/>
+		</g>
+		<g>
+			<g>
+				<path fill="#062938" d="M14,49h-2c0-13.2,10.8-24,24-24v2C23.9,27,14,36.9,14,49z"/>
+			</g>
+			<g>
+				<g>
+					<polygon fill="#062938" points="32.8,32.6 31.2,31.4 34.6,26.3 29.4,22.8 30.6,21.2 37.4,25.7 					"/>
+				</g>
+			</g>
+			<g>
+				
+					<rect x="28" y="38.3" transform="matrix(0.7071 0.7071 -0.7071 0.7071 39.6066 -7.6188)" fill="#062938" width="2" height="11.3"/>
+			</g>
+			<g>
+				
+					<rect x="23.3" y="43" transform="matrix(0.7071 0.7071 -0.7071 0.7071 39.6066 -7.6188)" fill="#062938" width="11.3" height="2"/>
+			</g>
+			<g>
+				<circle fill="#062938" cx="16" cy="22" r="4"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

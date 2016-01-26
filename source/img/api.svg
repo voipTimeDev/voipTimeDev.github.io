@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Avocode 2.4.5 - http://avocode.com -->
-<svg height="90" width="100" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 90">
-    <image xlink:href="data:image/png;base64,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" height="90" width="100" y="0" x="0" />
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 100 2000 1800" enable-background="new 0 100 2000 1800" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#062938" d="M1866.7,100H133.3C60,100,0,160,0,233.3v1200c0,73.3,60,133.3,133.3,133.3h626l-53.4,266.7H566.7v66.7
+				h866.7v-66.7h-141.9l-80-266.7h655.2c73.3,0,133.3-60,133.3-133.3v-1200C2000,160,1940,100,1866.7,100z M66.7,233.3
+				c0-36.7,30-66.7,66.7-66.7h1733.3c36.7,0,66.7,30,66.7,66.7v1000H66.7V233.3z M1221.9,1833.3h-448l53.4-266.7h314.6
+				L1221.9,1833.3z M1933.3,1433.3c0,36.7-30,66.7-66.7,66.7H133.3c-36.7,0-66.7-30-66.7-66.7V1300h1866.7V1433.3z"/>
+		</g>
+		<g>
+			<rect x="966.7" y="1366.7" fill="#062938" width="66.7" height="66.7"/>
+		</g>
+		<g>
+			<rect x="133.3" y="233.3" fill="#258EE6" width="1733.3" height="933.3"/>
+		</g>
+		<g>
+			<rect x="200" y="300" fill="#70C1F9" width="1600" height="800"/>
+		</g>
+		<g>
+			<g>
+				<g>
+					<g>
+						<path fill="#062938" d="M700,433.3h-33.3c-73.3,0-133.3,60-133.3,133.3v400H600V800h166.7v166.7h66.7v-400
+							C833.3,493.3,773.3,433.3,700,433.3z M600,733.3V566.7c0-36.7,30-66.7,66.7-66.7H700c36.7,0,66.7,30,66.7,66.7v166.7H600z"/>
+					</g>
+				</g>
+			</g>
+			<g>
+				<g>
+					<path fill="#062938" d="M1066.7,433.3h-33.3c-73.3,0-133.3,60-133.3,133.3v400h66.7V800h100c73.3,0,133.3-60,133.3-133.3v-100
+						C1200,493.3,1140,433.3,1066.7,433.3z M1133.3,666.7c0,36.7-30,66.7-66.7,66.7h-100V566.7c0-36.7,30-66.7,66.7-66.7h33.3
+						c36.7,0,66.7,30,66.7,66.7V666.7z"/>
+				</g>
+			</g>
+			<g>
+				<polygon fill="#062938" points="1400,500 1400,900 1466.7,900 1466.7,966.7 1266.7,966.7 1266.7,900 1333.3,900 1333.3,500 
+					1266.7,500 1266.7,433.3 1466.7,433.3 1466.7,500 				"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

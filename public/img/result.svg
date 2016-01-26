@@ -1,5 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Avocode 2.4.5 - http://avocode.com -->
-<svg height="130" width="100" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 130">
-    <image xlink:href="data:image/png;base64,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" height="130" width="100" y="0" x="0" />
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="233.3 0 1533.3 2000" enable-background="new 233.3 0 1533.3 2000" xml:space="preserve">
+<g>
+	<rect x="400" y="166.7" fill="#258EE6" width="1333.3" height="1800"/>
+</g>
+<g>
+	<polygon fill="#FFFFFF" points="1600,1833.3 266.7,1833.3 266.7,33.3 1333.3,33.3 1600,300 	"/>
+</g>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="233.3" y="0" width="1533.3" height="2000"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<polygon fill="#062938" points="1766.7,2000 366.7,2000 366.7,1833.3 433.3,1833.3 433.3,1933.3 1700,1933.3 1700,200 
+				1466.7,200 1466.7,133.3 1766.7,133.3 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<rect x="433.3" y="200" fill="#70C1F9" width="400" height="333.3"/>
+</g>
+<g>
+	<rect x="900" y="200" fill="#062938" width="266.7" height="66.7"/>
+</g>
+<g>
+	<rect x="900" y="333.3" fill="#062938" width="266.7" height="66.7"/>
+</g>
+<g>
+	<rect x="433.3" y="600" fill="#062938" width="1000" height="66.7"/>
+</g>
+<g>
+	<rect x="433.3" y="733.3" fill="#062938" width="1000" height="66.7"/>
+</g>
+<g>
+	<rect x="433.3" y="866.7" fill="#062938" width="1000" height="66.7"/>
+</g>
+<g>
+	<rect x="900" y="466.7" fill="#062938" width="533.3" height="66.7"/>
+</g>
+<g>
+	<rect x="433.3" y="1066.7" fill="#70C1F9" width="1000" height="600"/>
+</g>
+<g>
+	<rect x="500" y="1300" fill="#062938" width="66.7" height="366.7"/>
+</g>
+<g>
+	<rect x="633.3" y="1466.7" fill="#062938" width="66.7" height="200"/>
+</g>
+<g>
+	<rect x="766.7" y="1166.7" fill="#062938" width="66.7" height="500"/>
+</g>
+<g>
+	<rect x="900" y="1366.7" fill="#062938" width="66.7" height="300"/>
+</g>
+<g>
+	<rect x="1033.3" y="1300" fill="#062938" width="66.7" height="366.7"/>
+</g>
+<g>
+	<rect x="1166.7" y="1433.3" fill="#062938" width="66.7" height="233.3"/>
+</g>
+<g>
+	<rect x="1300" y="1233.3" fill="#062938" width="66.7" height="433.3"/>
+</g>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_3_" x="233.3" y="0" width="1533.3" height="2000"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_4_)">
+			<polygon fill="#062938" points="1600,333.3 1300,333.3 1300,33.3 1366.7,33.3 1366.7,266.7 1600,266.7 			"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_5_" x="233.3" y="0" width="1533.3" height="2000"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_6_)">
+			<path fill="#062938" d="M1633.3,1866.7h-1400V0h1113.3l286.7,286.7V1866.7z M300,1800h1266.7V313.3L1320,66.7H300V1800z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<rect x="566.7" y="333.3" fill="#062938" width="133.3" height="66.7"/>
+</g>
 </svg>

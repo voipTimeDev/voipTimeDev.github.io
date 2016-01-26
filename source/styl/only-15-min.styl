@@ -3,13 +3,46 @@
 
 .only-15-min__col
   display inline-block
-  width 33.33%
+  width 100%
   margin 0
   float left
   text-align center
+  @media(min-width 768px)
+    width 33.33%
 
 .only-15-min__col-title
   color $black
+  font-size 24px
+  max-width 300px
+  margin 0 auto 19px
+  @media(min-width 768px)
+    font-size 30px
+    margin 0 auto 29px
 
 .only-15-min__col-paragraph
   color $black
+  font-size 14px
+  line-height 22px
+  text-align center
+  margin 0 23px 44px
+  @media(min-width 768px)
+    font-size 14px
+    margin 0 23px 121px
+  @media(min-width 1024px)
+    font-size 16px
+  @media(min-width 1170px)
+    font-size 18px
+
+
+.only-15-min__img
+  height 60px
+  width auto
+  margin-bottom 19px
+  @media(min-width 768px)
+    height 110px
+    width auto
+    margin-bottom 37px
+  @media(min-width 1024px)
+    height 137px
+    width auto
+    margin-bottom 36px

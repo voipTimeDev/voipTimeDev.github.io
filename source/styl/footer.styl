@@ -1,18 +1,79 @@
 .footer
   background-color $blue-dark
+  overflow hidden
+  padding 0 20px
+  width calc(100% -40px)
 
 .footer__left-side
   display inline-block
   box-sizing border-box
-  width 50%
+  width 100%
   margin 0
   float left
+  display none
+  position relative
+  @media(min-width 768px)
+    width 35%
+    display inline-block
+  @media(min-width 1024px)
+    width 45%
+
 
 .footer__right-side
   display inline-block
   box-sizing border-box
-  width 50%
   margin 0
   font-size 18px
-  float left
+  float right
+  @media(min-width 768px)
+    width 65%
+  @media(min-width 1024px)
+    width 55%
+  @media(min-width 1170px)
+    width 50%
+    margin-left 5%
 
+.footer__paragraph
+  font-size 14px
+  text-align center
+  line-height 18px
+  margin 0
+  margin-bottom 50px
+  @media(min-width 768px)
+    text-align left
+    line-height 24px
+    font-size 16px
+    margin-bottom 69px
+
+.copyright
+  width 100%
+  font-size 11px
+  display block
+  text-align center
+  color #3b6e98
+  max-width 189px
+  margin 0 auto 20px
+  @media(min-width 768px)
+    display block
+    font-size 12px
+    width 65%
+    margin-left 35%
+    max-width none
+    text-align left
+    margin-bottom 37px
+  @media(min-width 1024px)
+    width 55%
+    margin-left 45%
+  @media(min-width 1170px)
+    width 50%
+    margin-left 50%
+
+.footer__title
+  text-align center
+  margin-left 0
+  @media(min-width 768px)
+    text-align left
+    margin-bottom 64px
+    font-size 50px
+  @media(min-width 1024px)
+    font-size 50px

@@ -1,5 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Avocode 2.4.5 - http://avocode.com -->
-<svg height="126" width="114" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114 126">
-    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAB+CAYAAAD4H0UGAAAIrUlEQVR4Xu2deWwUVRzHv9PS7UFbKVcRsaJcXVsBQaBVaYxGY0IFNA0BjUoqRLxiEA2IBA8OTZSqwQMhIq0H1AMNFiMYMJ5U0KIoblCsEo5KS6Gl527bXTPFTveYKXO9mTfd3yT9Y3be+73ffD/ze+/9XucQwGhzuXM2AbibkXkmZgMxMVe2Hfz+ZybGdRiNy7p6vOD37w+qWu/zlPeTMyXosK+qCoFUJVOPhQikTg0pImWEo4jUeTUFVdMUkS53Tp3xJmUtJAJwdR0Ze30Bxt5QwKgpfWZLVxSirbU5uHIjgA591pRrCcB7Xk/5/Uol4t2TpwUQ867M8VgAyUG/BwCclR0jXe4c8SDz7ar8uZiUP5d5O1oaeHPhNPhamrRU0Vu22OcpVzx5lzt3JhD4WK9xsZ5AIAmkpguIItLiiBx08zLEJqVFQKr5fCU6ms9Iv6975nFMyHYrwnx67Xps//Jb6Xg4yAO7PsSBXR9ouhiMFp61fCNcCX0lM+Fd6ztrVmL0pRmKzTz23Ev4am+FdDx17EwkjZwaUb7RswONnp3Bv2vqWkcNz8C7RSsV/aiqrsGMBYtCjkd0rUNnr0OflMERRk5svhftjTXS719sehV5kycoNjZv6Qq8/clniiD3lW3Cj2XimoF1W2FRGeKTuucO4SD3bi3BuMxRig4VPLgYn+7+WjqelluIlOz8iPL1P5WivqJUN8ixY0Zh38clin4cOV6F0TfeRiC7FCCQACgiAYpIAA21/3b+WbkNGXkFYmLE1OzcRhFpQkRaCVCpLQJJIDuvDepaeQhH6lrPUdA62Unpn46UgUM4QXjOjarDvyLg90s+8ZJ+9E1MxMTsTEWtWr0+7D1w0J70gyuCCs7wAlKPVpYtCOhxzuo6toHMzH0cQmC1kfMlkEHq2Qby8txnEQgs4RLkdxW/4K8jx4z4Znnd/Ounov8FqYrtslqii8vMmS8IWN/VcJ/kgbhg4mxFPzpaG1D3Q7E1Y6TlFCxokBXI8P9HugYMx5DbihTPqL2hGie2LCCQepkTSL3KcVaPQHIGRK87BFKvcpzVI5CcAdHrDoHUqxxn9QikBUBO15/Fqtc2GmppUeEdGJo+yPI8ktKPIMnl7mPRStW2lZ2w+1qjOo8kkGF3mpt1F53WaDBankD2EpA0RvYSkEYjWk19mrWqUckBZQikAyCpcZFAqlHJAWUIpAMgqXGRQKpRyQFlCKQDIKlxMSpB0j07+h+r42qJLvz5SDVXvN1laK1VhgCBpIi0LTApImWkf35DCXZ+W24bFD0Nr1uxFCMyhtH/I/WI56Q6UTlrdRIgtb4SSLVKcV4uKkEeqjyCk6dqOUcT6p743qDkJPEVevJbVIKk9IPSD9uimNIPWhAIUcDom6+4WqJb/PxabN2x27bo0tPwtjeK4B5xKY2ResRzUp2onOw4CZBaXwmkWqU4LxeVIE+dqUNTcwvnaELdu3DwQLji4miMDFaA8kjKI22LYsojKY/svXkkda29pGu1rX9k2LBVs9YBw0Zg1rI3Fc9EfGHxO0+EvlCJ2SvMGOppm2kCaZv05jZMIM3V0zZrUQmSJjv6JztcjZEEkkDa1nXysiBAEWnwEiCQMgLSornxrrX2eCU+eeEhSV1XYjLuXF3a+eEbyiMNRK3Vs9ZTRw/jg1XzgkD2xT0vbieQBhh2ViWQRhXkpH5UgqSbr4yPke1tXtT9e1S6jIWYGAy46DJru1bKI42DVOqILJ3sEEgCaduISHmkjPT0EI/xiKw7eRQ7NzzVnX4kJGHmo2utHSNtCyuGDUflrJWhnraZJpC2SW9uw1EJkoeXQXxR/JqpJK0G6WtpwvFD+6VziIntg0uuyLF2jOQh/fD+vsfRICmP/F8BApkyOOJiOLH5XrQ31ki/a/3GsqmhodIYgTQBJA8vFbzr1mkqkasrZvUYyUXXqk4aZ5UikM7ipegtgSSQxT5P+VwlGcK/jcXVzVe9hF3IabCKyPjMnEcCAtZ0NRaflILh465RlLDN24LKiq9CjtOzHxquOFYgXTx/vl6DPo4pygpkvHvKAwEIrxgRgiJSg3qsQIaPkRpckooSSA2qWQUyMTUNWXkzFD3zNTfiwO4PaYzUwM6SyQ7NWvUS0VnPqoik9EMnILXVCKRapTgvRyA5B6TWPQKpVinOyxFIzgGpdc8qkP3SL8acp0oAQZB1TbxNcvOTd5qTfiy4vQAje/jYiVpxnFTurY+24eCflZLLabmFSMnOjzgFo29QFg1m5U1H3pyFETDF+3g+fflRVP/jMQekkwCw8tUskHHunAkCIH62KOTVlOEwlSACOK57ZYeVOE6yaxZI8Zzjs3KmB/wQl2tkYfpam2UjsROiIFxHIA1cOWaC7Amm+9ppqD1WGdGddkH0/r7nsGqQp795HR0t9QZOu/dVTc68AYkZkwyPkcEGlCJTRr3OSBQhisdUg+x9GNidkdbJTrgnKmCGQCSQjFgaBdlTNxvcnQa7TxHJAKYZIDthuqc8HIDwUpCLfkEQxnR1pwSSAbxgk2aBjMu6erzg93c//AE0+DzlqXLuU0QygMoQZL3PU96Pa5AdTbVoO1sl+RibkIq4tAxp3+9rgq/2b2lfiHUhfvBoaT/Q0QZv9aGQc0y4MJsBpvObNAtk/JhrxgSEDunRZ0FAg9dTPpVrkA2/leHMno2Sj4mXTMagm5ZI+61Vv6G6bLm03yd5EIbOeUPab2+oxoktC0LOMWP+1vOrzqCEWSC1uMZN10ogtWCLLEsgjeknWzuqI7Lx0C6crXhfEiZh2Hj0n3qftO+t/gO1u6SbsRHbdwDSp6+Wjotj7MltS0OEDe56GfBSNBnVIK0UmnVbBJK1whbZJ5AWCc26GQLJWmGL7BNIi4Rm3QwXINNvWdU5I6RNvwJiTiz+BW09Puiqv6XumhF5pBlGyUaEAgSyl1wUBJJAqlOAulZ1OhktxTwi/wP9N0M2lPj9VwAAAABJRU5ErkJggg==" height="126" width="114" y="0" x="0" />
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 56 62" enable-background="new 0 0 56 62" xml:space="preserve">
+<g>
+	<rect x="1" y="3" fill="#258EE6" width="42" height="58"/>
+</g>
+<g>
+	<rect x="6" y="3" fill="#FFFFFF" width="32" height="48"/>
+</g>
+<g>
+	<rect x="11" y="20" fill="#062938" width="22" height="2"/>
+</g>
+<g>
+	<rect x="11" y="24" fill="#062938" width="22" height="2"/>
+</g>
+<g>
+	<rect x="11" y="28" fill="#062938" width="22" height="2"/>
+</g>
+<g>
+	<rect x="11" y="32" fill="#062938" width="22" height="2"/>
+</g>
+<g>
+	<rect x="11" y="36" fill="#062938" width="22" height="2"/>
+</g>
+<g>
+	<rect x="11" y="40" fill="#062938" width="16" height="2"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="56" height="62"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<polygon fill="#062938" points="39,52 5,52 5,3 7,3 7,50 37,50 37,3 39,3 		"/>
+	</g>
+</g>
+<g>
+	<rect x="25" y="14" fill="#062938" width="8" height="2"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_3_" width="56" height="62"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_4_)">
+		<path fill="#062938" d="M44,62H0V2h44V62z M2,60h40V4H2V60z"/>
+	</g>
+</g>
+<g>
+	<rect x="12" y="1" fill="#70C1F9" width="20" height="8"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_5_" width="56" height="62"/>
+	</defs>
+	<clipPath id="SVGID_6_">
+		<use xlink:href="#SVGID_5_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_6_)">
+		<path fill="#062938" d="M33,10H11V0h22V10z M13,8h18V2H13V8z"/>
+	</g>
+</g>
+<g>
+	<rect x="49" y="30" fill="#70C1F9" width="6" height="15"/>
+</g>
+<g>
+	<rect x="49" y="9" fill="#258EE6" width="6" height="21"/>
+</g>
+<g>
+	<rect x="49" y="3" fill="#FFFFFF" width="6" height="6"/>
+</g>
+<g>
+	<rect x="48" y="9" fill="#062938" width="2" height="36"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_7_" width="56" height="62"/>
+	</defs>
+	<clipPath id="SVGID_8_">
+		<use xlink:href="#SVGID_7_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_8_)">
+		<rect x="54" y="9" fill="#062938" width="2" height="36"/>
+	</g>
+	<g clip-path="url(#SVGID_8_)">
+		<path fill="#062938" d="M56,10h-8V2h8V10z M50,8h4V4h-4V8z"/>
+	</g>
+</g>
+<g>
+	<polygon fill="#70C1F9" points="55,45 55,50 52,53 49,50 49,45 	"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_9_" width="56" height="62"/>
+	</defs>
+	<clipPath id="SVGID_10_">
+		<use xlink:href="#SVGID_9_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_10_)">
+		<path fill="#062938" d="M52,54.4l-4-4V44h8v6.4L52,54.4z M50,49.6l2,2l2-2V46h-4V49.6z"/>
+	</g>
+	<g clip-path="url(#SVGID_10_)">
+		<rect x="51" fill="#062938" width="2" height="3"/>
+	</g>
+	<g clip-path="url(#SVGID_10_)">
+		<rect x="51" y="53" fill="#062938" width="2" height="2"/>
+	</g>
+	<g clip-path="url(#SVGID_10_)">
+		<rect x="51" y="38" fill="#062938" width="2" height="2"/>
+	</g>
+	<g clip-path="url(#SVGID_10_)">
+		<rect x="51" y="34" fill="#062938" width="2" height="2"/>
+	</g>
+</g>
+<g>
+	<rect x="17" y="55" fill="#062938" width="2" height="2"/>
+</g>
+<g>
+	<rect x="21" y="55" fill="#062938" width="2" height="2"/>
+</g>
+<g>
+	<rect x="25" y="55" fill="#062938" width="2" height="2"/>
+</g>
+<g>
+	<rect x="15" y="4" fill="#062938" width="14" height="2"/>
+</g>
 </svg>

@@ -1,6 +1,17 @@
 extends ./layout.jade
 
 
+
+//*****************
+// Main
+//*****************
+block navbar
+  section.navbar.cf
+    .adaptive-container
+      .logo
+      a.start-trial.start-trial_white(href="#") Start Your Trial
+
+
 //*****************
 // Main
 //*****************
@@ -28,19 +39,19 @@ block only-15-min
       h2.section-title.section-title__dark Only 15 Minutes to Run Massive Calls
 
       .only-15-min__col
-        img(src="./img/speed.svg")
+        img.only-15-min__img(src="./img/speed.svg")
         h3.only-15-min__col-title Speed
         p.only-15-min__col-paragraph System for working with tracks that allows the sales department to keep lead records
           | and efficiently work with both cold and warm contacts
 
       .only-15-min__col
-        img(src="./img/work.svg")
+        img.only-15-min__img(src="./img/work.svg")
         h3.only-15-min__col-title Work
         p.only-15-min__col-paragraph Your employees can gather the necessary information or sales, using the script call,
           | to call client card and so on
 
       .only-15-min__col
-        img(src="./img/result.svg")
+        img.only-15-min__img(src="./img/result.svg")
         h3.only-15-min__col-title Result
         p.only-15-min__col-paragraph After you complete call you get detailed statistics of all attempts to dial with
           | the current lead status you can unload for further analysis
@@ -52,7 +63,7 @@ block only-15-min
 block increase-the-speed
   section.increase-the-speed.cf
     .adaptive-container
-      h2.section-title Increase the Speed for Your Call Center
+      h2.section-title.increase-the-speed__title Increase the Speed for Your Call Center
       .increase-the-speed__ilustration
         img.increase-the-speed__battery(src="./img/battery.svg")
 
@@ -65,7 +76,7 @@ block increase-the-speed
 block predictive-dialer
   section.predictive-dialer.cf
     .adaptive-container
-      h2.section-title.section-title__dark Our Benefits
+      h2.section-title.section-title_small-margin.section-title__dark Our Benefits
 
       div.predictive-dialer__row.cf
         .predictive-dialer__benefit-container
@@ -125,7 +136,7 @@ block predictive-dialer
 block reviews
   section.reviews.cf
     .adaptive-container
-      h2.section-title.section-title__dark What Customers Say About Us
+      h2.section-title.section-title_small-margin.section-title__dark What Customers Say About Us
 
       .reviews__row
         .reviews__container.cf
@@ -146,7 +157,7 @@ block reviews
           img.reviews__image(src="http://lorempixel.com/80/80/people/6")
           .reviews__text-container
             p.reviews__review Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-              | adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatema
+              | adipisci velit, sed quia non numquam eius modi slkdjfslkjdf sldkfsd sldkfsd sldkfj tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatema
             span.reviews__initials Thomas Jackson. Netflix
         .reviews__container.cf
           img.reviews__image(src="http://lorempixel.com/80/80/people/7")
@@ -161,13 +172,22 @@ block reviews
 //*****************
 block footer
   footer.footer.cf
-    .adaptive-container
+    .adaptive-container.cf
+
       .footer__left-side
-        img(src="./img/rocket.svg")
+        img.rocket(src="./img/rocket.svg")
+
       .footer__right-side
-        h2.section-title Get Started Today
-        a.start-trial(href="#") start your trial
-        p.footer-paragraph Predictive Dialer allows maximize quality of calls with minimal operators downtime. Since the
+        h2.section-title.footer__title Get Started Today
+        a.start-trial.start-trial_footer(href="#") start your trial
+        p.footer__paragraph Predictive Dialer allows maximize quality of calls with minimal operators downtime. Since the
           | application is automatically dialed, and operators are connected only ‘live’ subscribers, the working
           | time is used as efficiently as possible
-        span.copyright © 2016. VoIPTime Predictive Dialer & Lead Management System. All Rights reserved.
+        .contacts
+          .contacts__contact.contacts__tel 1-800-217-9944
+          .contacts__contact.contacts__mail info@voiptime.com
+          .contacts__contact.contacts__skype
+            i.fa.fa-skype
+            | &#32; voiptime
+
+      span.copyright © 2016. VoIPTime Predictive Dialer & Lead Management System. All Rights reserved.

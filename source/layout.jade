@@ -2,8 +2,12 @@ doctype html
 html(lang="en")
     head
         title pageTitle
+        meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
         link(rel='stylesheet', href='css/main.css')
+        link(rel='stylesheet', media='screen', href='https://fontlibrary.org/face/hk-grotesk', type='text/css')
     body
+        block navbar
         block main
         block only-15-min
         block increase-the-speed
