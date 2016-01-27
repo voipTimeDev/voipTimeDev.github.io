@@ -3,13 +3,24 @@ extends ./layout.jade
 
 
 //*****************
-// Main
+// Navbar
 //*****************
 block navbar
   section.navbar.cf
     .adaptive-container
       .logo
       a.start-trial.start-trial_white(href="#") Start Your Trial
+
+
+//*****************
+// Navbar-fixed
+//*****************
+block navbar-fixed
+  section.navbar-fixed.cf#navbar-fixed
+    .adaptive-container
+      .logo.logo-fixed
+      a.start-trial.start-trial_navbar(href="#") Start Your Trial
+      a.start-trial.start-trial_navbar-mobile(href="#") Start Trial
 
 
 //*****************
