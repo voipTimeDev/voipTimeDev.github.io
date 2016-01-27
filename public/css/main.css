@@ -220,14 +220,19 @@ h2 {
   position: absolute;
   width: 350px;
   transform: rotate(27deg);
-  top: 0;
-  right: 40px;
+  top: 1900px;
+  right: 1040px;
   opacity: 0.5;
 }
 @media (min-width: 1040px) {
   .rocket {
     width: 400px;
   }
+}
+.rocket_animation {
+  transition: all 1s;
+  top: 0;
+  right: 40px;
 }
 .contacts {
   color: #fff;
