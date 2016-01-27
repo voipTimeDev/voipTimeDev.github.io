@@ -206,6 +206,9 @@ h2 {
   float: left;
   margin-top: 18px;
   margin-left: 20px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  -ms-filter: invert(100%);
 }
 @media (min-width: 768px) {
   .logo-fixed {

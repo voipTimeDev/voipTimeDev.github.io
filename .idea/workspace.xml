@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99a1404d-2c23-4c9c-b933-685d6003de2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/styl/navbar-fixed.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/danikkks.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/danikkks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.jade" afterPath="$PROJECT_DIR$/source/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/main.js" afterPath="$PROJECT_DIR$/source/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/layout.jade" afterPath="$PROJECT_DIR$/source/layout.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/logo.svg" afterPath="$PROJECT_DIR$/public/img/logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/img/logo.svg" afterPath="$PROJECT_DIR$/source/img/logo.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styl/common.styl" afterPath="$PROJECT_DIR$/source/styl/common.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styl/main-section.styl" afterPath="$PROJECT_DIR$/source/styl/main-section.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styl/main.styl" afterPath="$PROJECT_DIR$/source/styl/main.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styl/navbar.styl" afterPath="$PROJECT_DIR$/source/styl/navbar.styl" />
     </list>
     <ignored path="landing-predictive-dialer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,11 +31,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.52562577">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="navbar-fixed.styl" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/source/styl/navbar-fixed.styl">
+          <file leaf-file-name="common.styl" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/source/styl/common.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.016967127">
-                  <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.8653234">
+                  <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -90,9 +79,9 @@
         <option value="$PROJECT_DIR$/source/styl/main.styl" />
         <option value="$PROJECT_DIR$/source/styl/main-section.styl" />
         <option value="$PROJECT_DIR$/source/index.jade" />
-        <option value="$PROJECT_DIR$/source/styl/common.styl" />
         <option value="$PROJECT_DIR$/source/js/main.js" />
         <option value="$PROJECT_DIR$/source/styl/navbar-fixed.styl" />
+        <option value="$PROJECT_DIR$/source/styl/common.styl" />
       </list>
     </option>
   </component>
@@ -334,7 +323,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453876031145</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add fixed navbar">
+      <created>1453888852797</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1453888852797</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -370,7 +365,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="fix buttons padding" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix buttons padding" />
+    <MESSAGE value="add fixed navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fixed navbar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -590,18 +586,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styl/common.styl">
+    <entry file="file://$PROJECT_DIR$/source/styl/navbar-fixed.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24390244">
-          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.118769884">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styl/navbar-fixed.styl">
+    <entry file="file://$PROJECT_DIR$/source/styl/common.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.016967127">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.8653234">
+          <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
           <folding />
         </state>
       </provider>
