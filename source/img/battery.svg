@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="1192.7 1842.1 28.4 10.7" enable-background="new 1192.7 1842.1 28.4 10.7" xml:space="preserve">
+<svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="1192.7 1842.1 28.4 10.7" enable-background="new 1192.7 1842.1 28.4 10.7" xml:space="preserve">
+<style>
+    rect {
+     transition: all .5s;
+    }
+</style>
 <g>
 	<rect x="1218.6" y="1845.2" fill="none" width="2.3" height="4.5"/>
 </g>
@@ -33,15 +37,15 @@
 	</g>
 </g>
 <g>
-	<rect x="1204.6" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
+	<rect x="1204.6" opacity="0.3" id="first" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
 </g>
 <g>
-	<rect x="1208" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
+	<rect x="1208" opacity="0.3" id="second" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
 </g>
 <g>
-	<rect x="1211.3" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
+	<rect x="1211.3" opacity="0.3" id="third" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
 </g>
 <g>
-	<rect x="1214.7" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
+	<rect x="1214.7" opacity="0.3" id="fourth" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
 </g>
 </svg>

@@ -120,7 +120,6 @@ h2 {
 }
 .start-trial_navbar-mobile {
   background-color: #ff1958;
-  margin-right: 20px;
   line-height: 13px;
   padding: 13px 0 8px;
   float: right;
@@ -205,7 +204,6 @@ h2 {
 .logo-fixed {
   float: left;
   margin-top: 18px;
-  margin-left: 20px;
   filter: invert(100%);
   -webkit-filter: invert(100%);
   -ms-filter: invert(100%);
@@ -214,6 +212,34 @@ h2 {
   .logo-fixed {
     margin-top: 28px;
   }
+}
+.rocket__img {
+  width: 400px;
+}
+.rocket__img-container {
+  position: relative;
+}
+.rocket__flame-container {
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  margin-top: 10px;
+  overflow: hidden;
+  min-height: 500px;
+}
+.rocket__flame-container_left {
+  left: 89px;
+}
+.rocket__flame-container_right {
+  right: -20px;
+}
+.rocket__flame {
+  min-width: 40px;
+  margin-top: -10px;
+}
+.rocket__flame-animation {
+  transition: margin-top 1s;
+  margin-top: -10px;
 }
 .rocket {
   width: 100%;
@@ -273,6 +299,12 @@ h2 {
   right: 0;
   background-color: #fff;
   z-index: 200;
+}
+@media (max-width: 768px) {
+  .navbar-fixed {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 .navbar-fixed_visible {
   transition: all 0.7s;
@@ -444,15 +476,17 @@ h2 {
     margin-bottom: 150px;
   }
 }
-.increase-the-speed__paragraph {
+#increase-the-speed__paragraph {
   text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s;
   font-size: 18px;
   margin: 0 auto 62px;
   max-width: 206px;
   line-height: 20px;
 }
 @media (min-width: 768px) {
-  .increase-the-speed__paragraph {
+  #increase-the-speed__paragraph {
     max-width: 446px;
     margin: 0 auto 122px;
     font-size: 22px;
@@ -460,23 +494,133 @@ h2 {
   }
 }
 @media (min-width: 1024px) {
-  .increase-the-speed__paragraph {
+  #increase-the-speed__paragraph {
     font-size: 24px;
     line-height: 28px;
   }
 }
+.increase-the-speed__paragraph-animation {
+  opacity: 1 !important;
+}
 .increase-the-speed__battery {
-  margin: 0 auto;
-  max-width: 280px;
   display: block;
 }
+.increase-the-speed__ilustration {
+  margin: 0 auto;
+  margin-bottom: 55px;
+  max-width: 280px;
+  position: relative;
+}
 @media (min-width: 768px) {
-  .increase-the-speed__battery {
+  .increase-the-speed__ilustration {
     max-width: 550px;
   }
 }
-.increase-the-speed__ilustration {
-  margin-bottom: 55px;
+.arrow-left {
+  position: absolute;
+  height: 0;
+  width: 0;
+  bottom: 50px;
+  right: 65.5%;
+}
+@media (min-width: 768px) {
+  .arrow-left {
+    bottom: 105px;
+    width: 0;
+  }
+}
+.arrow-left-width {
+  transition: all 0.5s;
+  width: 30px;
+}
+@media (min-width: 768px) {
+  .arrow-left-width {
+    width: 114px;
+  }
+}
+.arrow-left-height {
+  transition: height 0.5s;
+  border-top: 1px dashed #fff;
+  border-right: 1px dashed #fff;
+  height: 165px;
+}
+.arrow-right {
+  position: absolute;
+  bottom: 50px;
+  left: 81%;
+  width: 0;
+  height: 0;
+}
+@media (min-width: 768px) {
+  .arrow-right {
+    bottom: 107px;
+    right: 11%;
+  }
+}
+.arrow-right-width {
+  transition: all 0.5s;
+  width: 10%;
+}
+@media (min-width: 768px) {
+  .arrow-right-width {
+    width: 40px;
+  }
+}
+.arrow-right-height {
+  transition: height 0.5s;
+  border-left: 1px dashed #fff;
+  height: 165px;
+}
+@media (min-width: 768px) {
+  .arrow-right-height {
+    border-top: 1px dashed #fff;
+  }
+}
+.counter {
+  transition: opacity 0.5s;
+  position: absolute;
+  top: -122px;
+  font-family: 'GothamPro';
+  opacity: 0;
+  color: #fff;
+}
+.counter-animation-left {
+  opacity: 1;
+}
+.counter-animation-right {
+  opacity: 1;
+}
+#counter-left {
+  left: -3%;
+  font-size: 32px;
+}
+@media (min-width: 768px) {
+  #counter-left {
+    top: -79px;
+  }
+}
+@media (min-width: 1024px) {
+  #counter-left {
+    font-size: 38px;
+  }
+}
+#counter-right {
+  right: 0;
+  top: -157px;
+  font-size: 50px;
+}
+@media (min-width: 768px) {
+  #counter-right {
+    top: -87px;
+    right: -10%;
+  }
+}
+@media (min-width: 1024px) {
+  #counter-right {
+    top: -97px;
+    right: -22%;
+    font-size: 75px;
+  }
 }
 .predictive-dialer {
   background-color: #f8f8f8;

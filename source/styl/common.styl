@@ -86,7 +86,6 @@ h2
 
 .start-trial_navbar-mobile
   background-color $red
-  margin-right 20px
   line-height 13px
   padding 13px 0 8px
   float right
@@ -148,13 +147,40 @@ h2
 .logo-fixed
   float left
   margin-top 18px
-  margin-left 20px
   filter invert(100%)
   -webkit-filter invert(100%)
   -ms-filter invert(100%)
   @media(min-width 768px)
     margin-top 28px
 
+
+.rocket__img
+  width 400px
+
+.rocket__img-container
+  position relative
+
+.rocket__flame-container
+  position absolute
+  display inline-block
+  width 50%
+  margin-top 10px
+  overflow hidden
+  min-height 500px
+
+.rocket__flame-container_left
+  left 89px
+.rocket__flame-container_right
+  right -20px
+
+
+.rocket__flame
+  min-width 40px
+  margin-top -10px
+
+.rocket__flame-animation
+  transition margin-top 1s
+  margin-top -10px
 
 .rocket
   width 100%

@@ -11,8 +11,10 @@
   @media(min-width 1024px)
     margin-bottom 150px
 
-.increase-the-speed__paragraph
+#increase-the-speed__paragraph
   text-align center
+  opacity 0
+  transition opacity .5s
   font-size 18px
   margin 0 auto 62px
   max-width 206px
@@ -26,12 +28,95 @@
     font-size 24px
     line-height 28px
 
+.increase-the-speed__paragraph-animation
+  opacity 1 !important
+
 .increase-the-speed__battery
-  margin 0 auto
-  max-width 280px
   display block
+
+.increase-the-speed__ilustration
+  margin 0 auto
+  margin-bottom 55px
+  max-width 280px
+  position relative
   @media(min-width 768px)
     max-width 550px
 
-.increase-the-speed__ilustration
-  margin-bottom 55px
+.arrow-left
+  position absolute
+  height 0
+  width 0
+  bottom 50px
+  right 65.5%
+  @media(min-width 768px)
+    bottom 105px
+    width 0
+
+.arrow-left-width
+  transition all .5s
+  width 30px
+  @media(min-width 768px)
+    width 114px
+
+.arrow-left-height
+  transition height .5s
+  border-top 1px dashed $white
+  border-right 1px dashed $white
+  height 165px
+
+.arrow-right
+  position absolute
+  bottom 50px
+  left 81%
+  width 0
+  height 0
+  @media(min-width 768px)
+    bottom 107px
+    right 11%
+
+.arrow-right-width
+  transition all .5s
+  width 10%
+  @media(min-width 768px)
+    width 40px
+
+.arrow-right-height
+  transition height .5s
+  border-left 1px dashed $white
+  height 165px
+  @media(min-width 768px)
+    border-top 1px dashed $white
+
+.counter
+  transition opacity  .5s
+  position absolute
+  top -122px
+  font-family $gotham
+  opacity 0
+  color $white
+
+.counter-animation-left
+  opacity 1
+
+.counter-animation-right
+  opacity 1
+#counter-left
+  left -3%
+  font-size 32px
+  @media(min-width 768px)
+    top -79px
+  @media(min-width 1024px)
+    font-size 38px
+
+
+#counter-right
+  right 0
+  top -157px
+  font-size 50px
+  @media(min-width 768px)
+    top -87px
+    right -10%
+  @media(min-width 1024px)
+    top -97px
+    right -22%
+    font-size 75px

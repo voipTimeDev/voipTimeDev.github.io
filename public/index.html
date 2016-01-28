@@ -50,11 +50,17 @@
         </div>
       </div>
     </section>
-    <section class="increase-the-speed cf">
+    <section id="increase-the-speed" class="increase-the-speed cf">
       <div class="adaptive-container">
         <h2 class="section-title increase-the-speed__title">Increase the Speed for Your Call Center</h2>
-        <div class="increase-the-speed__ilustration"><img src="./img/battery.svg" class="increase-the-speed__battery"></div>
-        <p class="increase-the-speed__paragraph">With Predictive Dialer the speed of your call center will increase from 30% to 70%</p>
+        <div class="increase-the-speed__ilustration">
+          <div id="arrow-left" class="arrow-left"></div>
+          <div id="arrow-right" class="arrow-right"></div>
+          <div id="counter-left" class="counter">0%</div>
+          <div id="counter-right" class="counter">0%</div>
+          <object id="battery" type="image/svg+xml" data="./img/battery.svg" class="increase-the-speed__battery"></object>
+        </div>
+        <p id="increase-the-speed__paragraph">With Predictive Dialer the speed of your call center will increase from 30% to 70%</p>
       </div>
     </section>
     <section class="predictive-dialer cf">
@@ -159,7 +165,14 @@
     </section>
     <footer class="footer cf">
       <div class="adaptive-container cf">
-        <div class="footer__left-side"><img id="rocket" src="./img/rocket.svg" class="rocket"></div>
+        <div class="footer__left-side">
+          <div id="rocket" class="rocket">
+            <div class="rocket__img-container"><img src="./img/rocket.svg" class="rocket__img">
+              <div class="rocket__flame-container rocket__flame-container_left"><img src="./img/rocket-flame.svg" class="rocket__flame"><img src="./img/rocket-flame.svg" class="rocket__flame"></div>
+              <div class="rocket__flame-container rocket__flame-container_right"><img src="./img/rocket-flame.svg" class="rocket__flame"><img src="./img/rocket-flame.svg" class="rocket__flame"></div>
+            </div>
+          </div>
+        </div>
         <div class="footer__right-side">
           <h2 class="section-title footer__title">Get Started Today</h2><a id="get-started" href="#" class="start-trial start-trial_footer">start your trial</a>
           <p class="footer__paragraph">

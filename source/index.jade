@@ -72,13 +72,17 @@ block only-15-min
 // Increase the speed
 //*****************
 block increase-the-speed
-  section.increase-the-speed.cf
+  section.increase-the-speed.cf#increase-the-speed
     .adaptive-container
       h2.section-title.increase-the-speed__title Increase the Speed for Your Call Center
       .increase-the-speed__ilustration
-        img.increase-the-speed__battery(src="./img/battery.svg")
+        .arrow-left#arrow-left
+        .arrow-right#arrow-right
+        .counter#counter-left 0%
+        .counter#counter-right 0%
+        object#battery.increase-the-speed__battery(type="image/svg+xml" data="./img/battery.svg")
 
-      p.increase-the-speed__paragraph With Predictive Dialer the speed of your call center will increase from 30% to 70%
+      p#increase-the-speed__paragraph With Predictive Dialer the speed of your call center will increase from 30% to 70%
 
 
 //*****************
@@ -186,7 +190,15 @@ block footer
     .adaptive-container.cf
 
       .footer__left-side
-        img.rocket#rocket(src="./img/rocket.svg")
+        div.rocket#rocket
+          div.rocket__img-container
+            img.rocket__img(src="./img/rocket.svg")
+            .rocket__flame-container.rocket__flame-container_left
+              img.rocket__flame(src="./img/rocket-flame.svg")
+              img.rocket__flame(src="./img/rocket-flame.svg")
+            .rocket__flame-container.rocket__flame-container_right
+              img.rocket__flame(src="./img/rocket-flame.svg")
+              img.rocket__flame(src="./img/rocket-flame.svg")
 
       .footer__right-side
         h2.section-title.footer__title Get Started Today
