@@ -5,6 +5,7 @@
     rect {
      transition: all .5s;
     }
+
 </style>
 <g>
 	<rect x="1218.6" y="1845.2" fill="none" width="2.3" height="4.5"/>
@@ -21,31 +22,31 @@
 	<polygon fill="#0D385C" points="1203.8,1852.5 1193,1852.5 1193,1842.3 1206.8,1842.3 	"/>
 </g>
 <polygon display="none" fill="#0D385C" points="1203.6,1852.5 1193,1852.5 1193,1842.3 1203.6,1842.3 1205.5,1847.4 "/>
-<g opacity="0.3">
+<g>
 	<g>
-		<rect x="1197.9" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
-	</g>
-</g>
-<g opacity="0.3">
-	<g>
-		<rect x="1194.5" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
-	</g>
-</g>
-<g opacity="0.3">
-	<g>
-		<rect x="1201.2" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
+		<rect x="1197.9" y="1843.5" fill="#2B618B" width="2.3" height="8"/>
 	</g>
 </g>
 <g>
-	<rect x="1204.6" opacity="0.3" id="first" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
+	<g>
+		<rect x="1194.5" y="1843.5" fill="#2B618B" width="2.3" height="8"/>
+	</g>
 </g>
 <g>
-	<rect x="1208" opacity="0.3" id="second" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
+	<g>
+		<rect x="1201.2" y="1843.5" fill="#2B618B" width="2.3" height="8"/>
+	</g>
 </g>
 <g>
-	<rect x="1211.3" opacity="0.3" id="third" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
+	<rect x="1204.6" id="first" y="1843.5" fill="#2B618B" width="2.3" height="8"/>
 </g>
 <g>
-	<rect x="1214.7" opacity="0.3" id="fourth" y="1843.5" fill="#70C1F9" width="2.3" height="8"/>
+	<rect x="1208" id="second" y="1843.5" fill="#2B618B" width="2.3" height="8"/>
+</g>
+<g>
+	<rect x="1211.3" id="third" y="1843.5" fill="#2B618B" width="2.3" height="8"/>
+</g>
+<g>
+	<rect x="1214.7" id="fourth" y="1843.5" fill="#2B618B" width="2.3" height="8"/>
 </g>
 </svg>

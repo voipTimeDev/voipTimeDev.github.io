@@ -68,6 +68,7 @@ h2 {
   clear: both;
 }
 .start-trial {
+  transition: background-color 0.2s;
   background-color: #ff1958;
   text-decoration: none;
   text-align: center;
@@ -88,6 +89,10 @@ h2 {
     margin: 0 auto 132px;
   }
 }
+.start-trial:hover {
+  transition: all 0.2s;
+  background-color: #f11954;
+}
 .start-trial_white {
   border: 1px solid #fff;
   background-color: transparent;
@@ -102,6 +107,9 @@ h2 {
     margin-top: 30px;
     margin-bottom: 0;
   }
+}
+.start-trial_white:hover {
+  background-color: transparent;
 }
 .start-trial_navbar {
   background-color: #ff1958;
@@ -218,6 +226,7 @@ h2 {
 }
 .rocket__img-container {
   position: relative;
+  transition: all 0.5s;
 }
 .rocket__flame-container {
   position: absolute;
@@ -226,6 +235,7 @@ h2 {
   margin-top: 10px;
   overflow: hidden;
   min-height: 500px;
+  bottom: -133%;
 }
 .rocket__flame-container_left {
   left: 89px;
@@ -235,7 +245,6 @@ h2 {
 }
 .rocket__flame {
   min-width: 40px;
-  margin-top: -10px;
 }
 .rocket__flame-animation {
   transition: margin-top 1s;
@@ -245,6 +254,7 @@ h2 {
   width: 100%;
   position: absolute;
   width: 350px;
+  -webkit-transform: rotate(27deg);
   transform: rotate(27deg);
   top: 1900px;
   right: 1040px;
@@ -484,7 +494,7 @@ h2 {
 #increase-the-speed__paragraph {
   text-align: center;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: all 0.5s;
   font-size: 18px;
   margin: 0 auto 62px;
   max-width: 206px;
@@ -506,6 +516,7 @@ h2 {
 }
 .increase-the-speed__paragraph-animation {
   opacity: 1 !important;
+  margin-top: 0;
 }
 .increase-the-speed__battery {
   display: block;
@@ -752,6 +763,7 @@ h2 {
   float: left;
   left: 5px;
   top: 50%;
+  -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
 @media (min-width: 768px) {
@@ -808,6 +820,7 @@ h2 {
   position: absolute;
   left: -12px;
   top: 50%;
+  -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   width: 0;
   height: 0;
@@ -932,6 +945,11 @@ h2 {
     max-width: none;
     text-align: left;
     margin-bottom: 37px;
+  }
+}
+@media (max-width: 768px) {
+  .copyright {
+    line-height: 16px;
   }
 }
 @media (min-width: 1024px) {

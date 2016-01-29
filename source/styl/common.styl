@@ -43,6 +43,7 @@ h2
     clear both
 
 .start-trial
+  transition background-color .2s
   background-color $red
   text-decoration none
   text-align center
@@ -59,6 +60,9 @@ h2
   padding 24px 0 20px
   @media(min-width 768px) and (max-width 1024px)
     margin 0 auto 132px
+  &:hover
+    transition all .2s
+    background-color $dark-red
 
 .start-trial_white
   border 1px solid $white
@@ -71,6 +75,8 @@ h2
     float right
     margin-top 30px
     margin-bottom 0
+  &:hover
+    background-color transparent
 
 .start-trial_navbar
   background-color $red
@@ -159,6 +165,7 @@ h2
 
 .rocket__img-container
   position relative
+  transition all .5s
 
 .rocket__flame-container
   position absolute
@@ -167,6 +174,7 @@ h2
   margin-top 10px
   overflow hidden
   min-height 500px
+  bottom -133%
 
 .rocket__flame-container_left
   left 89px
@@ -176,7 +184,6 @@ h2
 
 .rocket__flame
   min-width 40px
-  margin-top -10px
 
 .rocket__flame-animation
   transition margin-top 1s

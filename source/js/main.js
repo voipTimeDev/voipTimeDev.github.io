@@ -8,6 +8,7 @@ window.onload = function() {
   let batteryTrue = true;
   let incrSpeedToTop = document.getElementById('increase-the-speed').offsetTop - 333;
   let paragraph = document.getElementById('increase-the-speed__paragraph');
+  let rocketContainer = document.getElementById('rocket-container');
 
   let batteryRect1 = battery.contentDocument.getElementById("first");
   let batteryRect2 = battery.contentDocument.getElementById("second");
@@ -32,6 +33,7 @@ window.onload = function() {
 
   window.onscroll = function scrollEvent() {
     let scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    console.log(scrolled);
 
     if( scrolled >= incrSpeedToTop && batteryTrue) {
       batteryAnimation();
@@ -56,43 +58,36 @@ window.onload = function() {
 
   function rocketStagger() {
     rocket.style.transition = 'all .2s';
-    rocket.style.top = '-5px';
-    rocket.style.right = '50px';
+    rocketContainer.style.transform = 'rotateY(20deg)';
     setTimeout(function() {
-      rocket.style.transition = 'all .3s';
-      rocket.style.top = '5px';
-      rocket.style.right = '30px';
-    }, 200);
+      rocketContainer.style.transform = 'rotateY(-10deg)';
+    }, 500)
     setTimeout(function() {
-      rocket.style.top = '-5px';
-      rocket.style.right = '50px';
-    }, 500);
-    setTimeout(function() {
-      rocket.style.top = '5px';
-      rocket.style.right = '30px';
-    }, 700);
-    setTimeout(function() {
-      rocket.style.transition = 'all .2s';
-      rocket.style.top = '0px';
-      rocket.style.right = '40px';
+      rocketContainer.style.transform = 'rotateY(10deg)';
     }, 1000);
+    setTimeout(function() {
+      rocketContainer.style.transform = 'rotateY(-5deg)';
+    }, 1500);
+    setTimeout(function() {
+      rocketContainer.style.transform = 'rotateY(0deg)';
+    }, 2000);
   }
 
   function counterAnimation() {
     const interval = setInterval(function() {
-      let counterVal = parseInt(counterLeft.innerText);
+      let counterVal = parseInt(counterLeft.textContent);
       if (counterVal  === 30) {
         clearInterval(interval);
       } else {
-        counterLeft.innerText = `${ ++counterVal }%`;
+        counterLeft.textContent = `${ ++counterVal }%`;
       }
     } ,2000/60);
     const intervalSecond = setInterval(function() {
-      let counterVal = parseInt(counterRight.innerText);
+      let counterVal = parseInt(counterRight.textContent);
       if (counterVal  === 70) {
         clearInterval(intervalSecond);
       } else {
-        counterRight.innerText = `${ ++counterVal }%`;
+        counterRight.textContent = `${ ++counterVal }%`;
       }
     } ,1000/60);
   }
@@ -102,15 +97,16 @@ window.onload = function() {
   }
 
   function batteryAnimation() {
-      batteryRect1.style.opacity = '1';
+    console.log(batteryRect1.classList);
+    batteryRect1.style.fill = "rgb(112, 193, 249)";
     setTimeout(function () {
-      batteryRect2.style.opacity = '1';
+      batteryRect2.style.fill = "rgb(112, 193, 249)";
     }, 150);
     setTimeout(function () {
-      batteryRect3.style.opacity = '1';
+      batteryRect3.style.fill = "rgb(112, 193, 249)";
     }, 300);
     setTimeout(function () {
-      batteryRect4.style.opacity = '1';
+      batteryRect4.style.fill = "rgb(112, 193, 249)";
     }, 450);
   }
 

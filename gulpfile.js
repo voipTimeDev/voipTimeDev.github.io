@@ -4,6 +4,7 @@ var jade = require('gulp-jade');
 var babel = require('gulp-babel');
 var livereload = require('gulp-livereload');
 var sourcemaps = require('gulp-sourcemaps');
+var autoprefixer = require('gulp-autoprefixer');
 
 var input = {
   'jade': './source/index.jade',
@@ -37,6 +38,10 @@ gulp.task('jade', function() {
 gulp.task('styl', function() {
   gulp.src(input.styl)
     .pipe(styl())
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions'],
+      cascade: false
+    }))
     .pipe(gulp.dest(output.css))
     .pipe(livereload());
 });
