@@ -58,18 +58,18 @@ window.onload = function() {
 
   function rocketStagger() {
     rocket.style.transition = 'all .2s';
-    rocketContainer.style.transform = 'rotateY(20deg)';
+    rocketContainer.style.transform = 'rotateX(20deg)';
     setTimeout(function() {
-      rocketContainer.style.transform = 'rotateY(-10deg)';
+      rocketContainer.style.transform = 'rotateX(-10deg)';
     }, 500)
     setTimeout(function() {
-      rocketContainer.style.transform = 'rotateY(10deg)';
+      rocketContainer.style.transform = 'rotateX(10deg)';
     }, 1000);
     setTimeout(function() {
-      rocketContainer.style.transform = 'rotateY(-5deg)';
+      rocketContainer.style.transform = 'rotateX(-5deg)';
     }, 1500);
     setTimeout(function() {
-      rocketContainer.style.transform = 'rotateY(0deg)';
+      rocketContainer.style.transform = 'rotateX(0deg)';
     }, 2000);
   }
 
