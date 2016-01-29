@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/source/styl/main-section.styl" line="38" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99a1404d-2c23-4c9c-b933-685d6003de2b" name="Default" comment="fix">
+    <list default="true" id="99a1404d-2c23-4c9c-b933-685d6003de2b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/main.js" afterPath="$PROJECT_DIR$/source/js/main.js" />
@@ -32,8 +32,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/source/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7184265">
-                  <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+                <state vertical-scroll-proportion="0.7784679">
+                  <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -420,7 +420,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454073426509</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" fix rocket anim">
+      <created>1454073732995</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1454073732995</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -463,7 +469,8 @@
     <MESSAGE value="fix media queries" />
     <MESSAGE value="add rocket line to git" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value=" fix rocket anim" />
+    <option name="LAST_COMMIT_MESSAGE" value=" fix rocket anim" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -757,8 +764,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7184265">
-          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.7784679">
+          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
           <folding />
         </state>
       </provider>

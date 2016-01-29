@@ -12,6 +12,11 @@ window.onload = function () {
   var paragraph = document.getElementById('increase-the-speed__paragraph');
   var rocketContainer = document.getElementById('rocket-container');
 
+  var lastScrollTop = 0;
+  var firstScrollTop = 0;
+  var secondScrollTop = 0;
+  var batteryActive = true;
+
   var batteryRect1 = battery.contentDocument.getElementById("first");
   var batteryRect2 = battery.contentDocument.getElementById("second");
   var batteryRect3 = battery.contentDocument.getElementById("third");
@@ -33,24 +38,26 @@ window.onload = function () {
 
   window.onscroll = function scrollEvent() {
     var scrolled = window.pageYOffset || document.documentElement.scrollTop;
-    console.log(scrolled);
 
     if (scrolled >= incrSpeedToTop && batteryTrue) {
-      batteryAnimation();
-      setTimeout(function () {
-        return arrowAnimation();
-      }, 1000);
-      setTimeout(function () {
-        return incrementCounterFontSize();
-      }, 1500);
-      setTimeout(function () {
-        return counterAnimation();
-      }, 2000);
-      setTimeout(function () {
-        return paragraphAnimation();
-      }, 3500);
-
-      batteryTrue = false;
+      if (batteryActive) {
+        batteryAnimation();
+        firstScrollTop = scrolled;
+        batteryActive = false;
+      } else if (firstScrollTop <= scrolled && firstScrollTop) {
+        arrowAnimation();
+        setTimeout(function () {
+          return incrementCounterFontSize();
+        }, 500);
+        firstScrollTop = 0;
+        secondScrollTop = scrolled;
+      } else if (secondScrollTop <= scrolled && secondScrollTop) {
+        counterAnimation();
+        setTimeout(function () {
+          return paragraphAnimation();
+        }, 500);
+        batteryTrue = false;
+      }
     }
     if (scrolled >= 53) {
       navbarFixed.classList.add('navbar-fixed_visible');
@@ -58,9 +65,11 @@ window.onload = function () {
       navbarFixed.classList.remove('navbar-fixed_visible');
     }
 
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 300) {
       rocket.classList.add('rocket_animation');
     }
+
+    lastScrollTop = scrolled;
   };
 
   function rocketStagger() {

@@ -10,6 +10,11 @@ window.onload = function() {
   let paragraph = document.getElementById('increase-the-speed__paragraph');
   let rocketContainer = document.getElementById('rocket-container');
 
+  let lastScrollTop = 0;
+  let firstScrollTop = 0;
+  let secondScrollTop = 0;
+  let batteryActive = true;
+
   let batteryRect1 = battery.contentDocument.getElementById("first");
   let batteryRect2 = battery.contentDocument.getElementById("second");
   let batteryRect3 = battery.contentDocument.getElementById("third");
@@ -33,16 +38,22 @@ window.onload = function() {
 
   window.onscroll = function scrollEvent() {
     let scrolled = window.pageYOffset || document.documentElement.scrollTop;
-    console.log(scrolled);
 
     if( scrolled >= incrSpeedToTop && batteryTrue) {
-      batteryAnimation();
-      setTimeout(() =>  arrowAnimation(),1000);
-      setTimeout(() => incrementCounterFontSize(),1500);
-      setTimeout(() => counterAnimation(), 2000);
-      setTimeout(() => paragraphAnimation(), 3500);
-
-      batteryTrue = false;
+      if (batteryActive) {
+        batteryAnimation();
+        firstScrollTop = scrolled;
+        batteryActive = false;
+      } else if (firstScrollTop <= scrolled && firstScrollTop) {
+        arrowAnimation();
+        setTimeout(() => incrementCounterFontSize(), 500);
+        firstScrollTop = 0;
+        secondScrollTop = scrolled;
+      } else if (secondScrollTop <= scrolled && secondScrollTop) {
+        counterAnimation();
+        setTimeout(() => paragraphAnimation(), 500);
+        batteryTrue = false;
+      }
     }
     if (scrolled >= 53) {
       navbarFixed.classList.add('navbar-fixed_visible');
@@ -50,9 +61,11 @@ window.onload = function() {
       navbarFixed.classList.remove('navbar-fixed_visible');
     }
 
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight -300) {
       rocket.classList.add('rocket_animation');
     }
+
+    lastScrollTop = scrolled;
   }
 
 
