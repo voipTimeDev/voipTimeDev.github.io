@@ -6,14 +6,16 @@ window.onload = function() {
   let stopAnim = false;
   let battery = document.getElementById('battery');
   let batteryTrue = true;
-  let incrSpeedToTop = document.getElementById('increase-the-speed').offsetTop - 333;
+  let incrSpeedToTop = document.getElementById('increase-the-speed').offsetTop - 433;
   let paragraph = document.getElementById('increase-the-speed__paragraph');
   let rocketContainer = document.getElementById('rocket-container');
 
   let lastScrollTop = 0;
   let firstScrollTop = 0;
-  let secondScrollTop = 0;
+
   let batteryActive = true;
+
+  let scrollHeightKnown = false;
 
   let batteryRect1 = battery.contentDocument.getElementById("first");
   let batteryRect2 = battery.contentDocument.getElementById("second");
@@ -38,8 +40,7 @@ window.onload = function() {
 
   window.onscroll = function scrollEvent() {
     let scrolled = window.pageYOffset || document.documentElement.scrollTop;
-
-    if( scrolled >= incrSpeedToTop && batteryTrue) {
+/*    if( scrolled >= incrSpeedToTop && batteryTrue) {
       if (batteryActive) {
         batteryAnimation();
         firstScrollTop = scrolled;
@@ -54,7 +55,30 @@ window.onload = function() {
         setTimeout(() => paragraphAnimation(), 500);
         batteryTrue = false;
       }
+    }*/
+    console.log(scrolled);
+
+    if(scrolled >= 1100) {
+      batteryRect1.style.fill = "rgb(112, 193, 249)";
     }
+    if(scrolled >= 1154) {
+      batteryRect2.style.fill = "rgb(112, 193, 249)";
+    }
+    if(scrolled >= 1210) {
+      batteryRect3.style.fill = "rgb(112, 193, 249)";
+    }
+    if(scrolled >= 1264) {
+      batteryRect4.style.fill = "rgb(112, 193, 249)";
+    }
+    if(scrolled >= 1320) {
+      arrowAnimation();
+      setTimeout(() => incrementCounterFontSize(), 500);
+    }
+    if(scrolled >= 1374) {
+      counterAnimation();
+      setTimeout(() => paragraphAnimation(), 500);
+    }
+
     if (scrolled >= 53) {
       navbarFixed.classList.add('navbar-fixed_visible');
     } else if (scrolled <= 53) {
@@ -111,7 +135,7 @@ window.onload = function() {
 
   function batteryAnimation() {
     console.log(batteryRect1.classList);
-    batteryRect1.style.fill = "rgb(112, 193, 249)";
+    //batteryRect1.style.fill = "rgb(112, 193, 249)";
     setTimeout(function () {
       batteryRect2.style.fill = "rgb(112, 193, 249)";
     }, 150);

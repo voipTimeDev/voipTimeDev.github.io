@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99a1404d-2c23-4c9c-b933-685d6003de2b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/danikkks.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/danikkks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.jade" afterPath="$PROJECT_DIR$/source/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/main.js" afterPath="$PROJECT_DIR$/source/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styl/common.styl" afterPath="$PROJECT_DIR$/source/styl/common.styl" />
     </list>
     <ignored path="landing-predictive-dialer.iws" />
@@ -29,11 +34,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.52562577">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/source/index.jade">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/source/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.89440995">
-                  <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+                <state vertical-scroll-proportion="0.7122153">
+                  <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -46,8 +51,8 @@
           <file leaf-file-name="common.styl" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/source/styl/common.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.728526">
-                  <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.93955463">
+                  <caret line="216" column="21" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -78,10 +83,10 @@
         <option value="$PROJECT_DIR$/source/img/battery.svg" />
         <option value="$PROJECT_DIR$/source/styl/footer.styl" />
         <option value="$PROJECT_DIR$/source/styl/variables.styl" />
-        <option value="$PROJECT_DIR$/source/js/main.js" />
-        <option value="$PROJECT_DIR$/source/index.jade" />
         <option value="$PROJECT_DIR$/source/styl/increase-the-speed.styl" />
         <option value="$PROJECT_DIR$/source/styl/common.styl" />
+        <option value="$PROJECT_DIR$/source/index.jade" />
+        <option value="$PROJECT_DIR$/source/js/main.js" />
       </list>
     </option>
   </component>
@@ -438,7 +443,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454309504411</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=" change media queries">
+      <created>1454309943112</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1454309943112</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -484,7 +495,8 @@
     <MESSAGE value=" fix rocket anim" />
     <MESSAGE value="battery step by step animation" />
     <MESSAGE value="fix resolution" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix resolution" />
+    <MESSAGE value=" change media queries" />
+    <option name="LAST_COMMIT_MESSAGE" value=" change media queries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -745,29 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styl/footer.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15270413">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49689442">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.89440995">
-          <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/styl/increase-the-speed.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8812301">
@@ -776,10 +765,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/styl/footer.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28844115">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/styl/common.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.728526">
-          <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.93955463">
+          <caret line="216" column="21" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94409937">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7122153">
+          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
           <folding />
         </state>
       </provider>

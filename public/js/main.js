@@ -8,14 +8,16 @@ window.onload = function () {
   var stopAnim = false;
   var battery = document.getElementById('battery');
   var batteryTrue = true;
-  var incrSpeedToTop = document.getElementById('increase-the-speed').offsetTop - 333;
+  var incrSpeedToTop = document.getElementById('increase-the-speed').offsetTop - 433;
   var paragraph = document.getElementById('increase-the-speed__paragraph');
   var rocketContainer = document.getElementById('rocket-container');
 
   var lastScrollTop = 0;
   var firstScrollTop = 0;
-  var secondScrollTop = 0;
+
   var batteryActive = true;
+
+  var scrollHeightKnown = false;
 
   var batteryRect1 = battery.contentDocument.getElementById("first");
   var batteryRect2 = battery.contentDocument.getElementById("second");
@@ -38,27 +40,49 @@ window.onload = function () {
 
   window.onscroll = function scrollEvent() {
     var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    /*    if( scrolled >= incrSpeedToTop && batteryTrue) {
+          if (batteryActive) {
+            batteryAnimation();
+            firstScrollTop = scrolled;
+            batteryActive = false;
+          } else if (firstScrollTop <= scrolled && firstScrollTop) {
+            arrowAnimation();
+            setTimeout(() => incrementCounterFontSize(), 500);
+            firstScrollTop = 0;
+            secondScrollTop = scrolled;
+          } else if (secondScrollTop <= scrolled && secondScrollTop) {
+            counterAnimation();
+            setTimeout(() => paragraphAnimation(), 500);
+            batteryTrue = false;
+          }
+        }*/
+    console.log(scrolled);
 
-    if (scrolled >= incrSpeedToTop && batteryTrue) {
-      if (batteryActive) {
-        batteryAnimation();
-        firstScrollTop = scrolled;
-        batteryActive = false;
-      } else if (firstScrollTop <= scrolled && firstScrollTop) {
-        arrowAnimation();
-        setTimeout(function () {
-          return incrementCounterFontSize();
-        }, 500);
-        firstScrollTop = 0;
-        secondScrollTop = scrolled;
-      } else if (secondScrollTop <= scrolled && secondScrollTop) {
-        counterAnimation();
-        setTimeout(function () {
-          return paragraphAnimation();
-        }, 500);
-        batteryTrue = false;
-      }
+    if (scrolled >= 1100) {
+      batteryRect1.style.fill = "rgb(112, 193, 249)";
     }
+    if (scrolled >= 1154) {
+      batteryRect2.style.fill = "rgb(112, 193, 249)";
+    }
+    if (scrolled >= 1210) {
+      batteryRect3.style.fill = "rgb(112, 193, 249)";
+    }
+    if (scrolled >= 1264) {
+      batteryRect4.style.fill = "rgb(112, 193, 249)";
+    }
+    if (scrolled >= 1320) {
+      arrowAnimation();
+      setTimeout(function () {
+        return incrementCounterFontSize();
+      }, 500);
+    }
+    if (scrolled >= 1374) {
+      counterAnimation();
+      setTimeout(function () {
+        return paragraphAnimation();
+      }, 500);
+    }
+
     if (scrolled >= 53) {
       navbarFixed.classList.add('navbar-fixed_visible');
     } else if (scrolled <= 53) {
@@ -114,7 +138,7 @@ window.onload = function () {
 
   function batteryAnimation() {
     console.log(batteryRect1.classList);
-    batteryRect1.style.fill = "rgb(112, 193, 249)";
+    //batteryRect1.style.fill = "rgb(112, 193, 249)";
     setTimeout(function () {
       batteryRect2.style.fill = "rgb(112, 193, 249)";
     }, 150);
