@@ -186,11 +186,6 @@ h2 {
     max-width: 1340px;
   }
 }
-@media (min-width: 1600px) {
-  .adaptive-container {
-    max-width: 1550px;
-  }
-}
 .logo {
   background-image: url("../img/logo.svg");
   display: block;
