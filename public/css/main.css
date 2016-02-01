@@ -183,7 +183,7 @@ h2 {
 }
 @media (min-width: 1440px) {
   .adaptive-container {
-    max-width: 1340px;
+    max-width: 1170px;
   }
 }
 .logo {
