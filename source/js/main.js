@@ -29,7 +29,7 @@ window.onload = function() {
   let arrowRight = document.getElementById('arrow-right');
 
   getStartedBtn.onmouseover = function() {
-    rocketStagger();
+    //rocketStagger();
   }
 
 
@@ -56,7 +56,6 @@ window.onload = function() {
         batteryTrue = false;
       }
     }*/
-    console.log(scrolled);
 
     if(scrolled >= 1100) {
       batteryRect1.style.fill = "rgb(112, 193, 249)";
@@ -95,12 +94,12 @@ window.onload = function() {
 
   function rocketStagger() {
     rocket.style.transition = 'all .2s';
-    rocketContainer.style.transform = 'rotateX(20deg)';
+    rocketContainer.style.transform = '10px';
     setTimeout(function() {
-      rocketContainer.style.transform = 'rotateX(-10deg)';
+      rocketContainer.style.marginTop = '-10px';
     }, 500)
     setTimeout(function() {
-      rocketContainer.style.transform = 'rotateX(10deg)';
+      rocketContainer.style.marginTop = '0px)';
     }, 1000);
     setTimeout(function() {
       rocketContainer.style.transform = 'rotateX(-5deg)';
@@ -134,7 +133,6 @@ window.onload = function() {
   }
 
   function batteryAnimation() {
-    console.log(batteryRect1.classList);
     //batteryRect1.style.fill = "rgb(112, 193, 249)";
     setTimeout(function () {
       batteryRect2.style.fill = "rgb(112, 193, 249)";
